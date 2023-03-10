@@ -1,0 +1,17 @@
+{
+  "name": "cryptobot-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crypto_price_bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^21.1.0",
+    "node-fetch": "^2.6.9",
+    "twilio": "^4.8.0"
+  }
+}

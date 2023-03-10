@@ -1,0 +1,59 @@
+COINMARKETCAP BITCOIN PRICE CLASSS
+1) class = priceValue
+
+2)HOW TO CONVERT PRICE STRING INTO A NUMBER:
+     
+
+Syntax
+1)typeof - it used to know the type of the DATA used(strings,boolean,integer etc)
+
+2)Fetch - fetch is a build-in function where you can specify the link to a website(automatically grab the html content of that website)
+
+async function fetchHTML(url){
+    try{
+        
+    const response = await fetch(url)
+
+
+
+    const txt = await response.text()
+
+
+
+    const page = new DOMParser().parseFromString(txt, 'text/html')
+
+
+
+    return page
+    }
+    catch(e){
+        return.false
+    }
+}
+
+
+
+BITCOIN CMC URL - https://coinmarketcap.com/currencies/bitcoin/
+ETH CMC URL - https://coinmarketcap.com/currencies/ethereum/
+
+                                       MANIPULATION OF ADDRESS TO GET PRICE(empty CMC address)
+https://coinmarketcap.com/currencies/______/
+
+                               WHAT IS AN ARRAY ?
+An array is a data structure that allows us to package multiple variables into one thing.It is ilterable meaning it can be used in a loop
+CONS - It is flat data structure on a straight line you cant create pairings
+
+                                 LOOPS
+ForLoop
+Loops allows us to go through every item in an array.
+
+                                 OBJECTS
+Objects properties can be used as KEYS 4and each keys can store a VALUE
+
+
+     SETTING UP NODE.JS
+npm - node package manager
+node --version  //To check your version using command prompt
+cd - //and your project folder address
+npm init -y //to create a project in Node.js
+
